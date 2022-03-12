@@ -1,8 +1,5 @@
 # Roblox Limiteds Sniper
-import configparser, time, warnings, os, requests, cloudscraper, cfscrape, bs4
-from typing import Counter
-from logging import error
-from bs4 import BeautifulSoup
+import configparser, time, warnings, os
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
